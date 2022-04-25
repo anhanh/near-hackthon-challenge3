@@ -1,11 +1,9 @@
 {
   "name": "nft-market-frontend-pik",
-  "homepage": "https://github.com/anhanh/near-hackthon-challenge3/",
   "version": "0.1.0",
   "license": "UNLICENSED",
   "scripts": {
     "build": "env-cmd -f ./develop.env parcel build src/index.html --public-url ./",
-    "predeploy": "npm run build",
     "dev:deploy:contract": "near dev-deploy",
     "deploy:contract": "near deploy",
     "deploy:pages": "gh-pages -d dist/",
