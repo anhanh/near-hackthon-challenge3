@@ -1,9 +1,6 @@
-const NFT_CONTRACT_NAME =
-  process.env.NFT_CONTRACT_NAME || 'nft-contract.phamtuananh.testnet';
-const MARKET_CONTRACT_NAME =
-  process.env.MARKET_CONTRACT_NAME || 'market-contract.phamtuananh.testnet';
-const FT_CONTRACT_NAME =
-  process.env.FT_CONTRACT_NAME || 'ft.phamtuananh.testnet';
+const NFT_CONTRACT_NAME = 'nft-contract.phamtuananh.testnet';
+const MARKET_CONTRACT_NAME = 'market-contract.phamtuananh.testnet';
+const FT_CONTRACT_NAME = 'ft.phamtuananh.testnet';
 
 function getConfig(env) {
   switch (env) {
